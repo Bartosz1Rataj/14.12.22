@@ -1,0 +1,99 @@
+body{
+    background-image: linear-gradient(to top right, rgb(45, 213, 255) , rgb(145, 57, 172));
+    background-color: rgb(32, 49, 202);
+    font-family: sans-serif;
+
+}
+
+#container{
+    width: 100%;
+    height: 910px;
+
+}
+
+#box{
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    width: 30%;
+    height: 90%;
+    border-radius: 15px;
+}
+
+#login{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#radio{
+    text-align: center;
+}
+
+#logowanie{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(170, 170, 170);
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#fname{
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+#fname2{
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.ffname{
+    color: rgb(93, 93, 93);
+    
+}
+
+#fname:focus {
+    outline: none;
+}
+
+#fname2:focus {
+    outline: none;
+}
+
+#guzikLogin{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
+    height: 70px;
+    background-image: linear-gradient(to right, rgb(107, 225, 255) , rgb(221, 48, 221));
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    border-radius: 55px;
+    line-height: 65px;
+}
+
+#koniec{
+    padding-top: 120px;
+    margin: auto;
+    text-align: center;
+    color: rgb(119, 119, 119);
+}
